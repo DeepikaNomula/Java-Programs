@@ -1,0 +1,12 @@
+import java.util.*;
+class Main{
+    public static void main(String args[]){
+        Map<String,Integer> students = new HashMap<String,Integer>();
+        students.put("Deepika",94);
+        students.put("Chintu",100);
+        students.put("John",55);
+        students.put("Smith",67);
+        
+        System.out.println(students);
+    }
+}
