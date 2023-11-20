@@ -1,0 +1,14 @@
+import java.util.*;
+public class Main{
+    public static void main(String args[]){
+        Set<Integer> nums = new TreeSet<Integer>();
+        nums.add(67);
+        nums.add(43);
+        nums.add(67);
+        nums.add(54);
+        
+        for(int n : nums){
+            System.out.println(n);
+        }
+    }
+}
