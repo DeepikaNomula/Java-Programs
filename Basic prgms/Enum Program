@@ -1,0 +1,17 @@
+enum Status{
+	Running,Failed,Pending, Success;
+}
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//int i=5;
+		Status[] ss = Status.values();
+		for(Status s : ss){
+		    System.out.println(s+":"+s.ordinal());
+		}
+	
+
+	}
+
+}
